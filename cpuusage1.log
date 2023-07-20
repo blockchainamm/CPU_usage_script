@@ -1,0 +1,153 @@
+CPU usage during loop 1 at time: 
+Thu Jul 20 18:00:24 BST 2023
+top - 18:00:24 up 3 min,  0 users,  load average: 0.37, 0.20, 0.09
+Tasks:  55 total,   3 running,  52 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.0 us,  8.3 sy,  0.0 ni, 49.6 id, 20.7 wa,  0.0 hi,  2.5 si,  0.0 st
+MiB Mem :   2883.9 total,   2148.1 free,    380.1 used,    355.7 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2357.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     94 root      20   0    5000   1700   1212 R  80.0   0.1   0:00.20 snapfuse
+    181 root      20   0 1244776  39556  17800 S  53.3   1.3   0:00.42 snapd
+     79 root      20   0    4844   2028   1408 S  20.0   0.1   0:00.23 snapfuse
+    386 usrzed    20   0   16900   9116   7668 R  20.0   0.3   0:00.03 systemd
+    180 syslog    20   0  222400   4880   4316 S  13.3   0.2   0:00.02 rsyslogd
+      1 root      20   0  165828  11116   8168 S   6.7   0.4   0:00.67 systemd
+     37 root      19  -1   31344  11180  10212 S   6.7   0.4   0:00.16 systemd-journal
+    347 root      20   0   12008   4104   3460 D   6.7   0.1   0:00.01 python3.10
+      2 root      20   0    2324   1192   1084 S   0.0   0.0   0:00.01 init-systemd(Ub
+      5 root      20   0    2324      4      0 S   0.0   0.0   0:00.00 init
+     62 root      20   0   21832   5728   4420 S   0.0   0.2   0:00.22 systemd-udevd
+     76 root      20   0    4492    184     32 S   0.0   0.0   0:00.00 snapfuse
+     77 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+     78 root      20   0    4624    200     44 S   0.0   0.0   0:00.00 snapfuse
+     85 root      20   0    4492    160     12 S   0.0   0.0   0:00.00 snapfuse
+     90 root      20   0    4916   1788   1300 S   0.0   0.1   0:03.20 snapfuse
+     92 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+    103 root      20   0   21700   4556   3348 S   0.0   0.2   0:00.01 systemd-udevd
+    104 root      20   0   21700   3636   2456 S   0.0   0.1   0:00.03 systemd-udevd
+    105 root      20   0   21700   3696   2520 S   0.0   0.1   0:00.02 systemd-udevd
+    106 root      20   0   21700   4076   2860 S   0.0   0.1   0:00.02 systemd-udevd
+    107 root      20   0   21700   4740   3496 S   0.0   0.2   0:00.04 systemd-udevd
+    108 root      20   0   21700   3736   2560 S   0.0   0.1   0:00.05 systemd-udevd
+    109 root      20   0   21700   3756   2576 S   0.0   0.1   0:00.02 systemd-udevd
+    110 root      20   0   21700   3752   2568 S   0.0   0.1   0:00.01 systemd-udevd
+    112 root      20   0   21832   3460   2184 S   0.0   0.1   0:00.00 systemd-udevd
+    113 root      20   0   21832   3352   2056 S   0.0   0.1   0:00.02 systemd-udevd
+    114 root      20   0   21832   3804   2488 S   0.0   0.1   0:00.01 systemd-udevd
+    115 root      20   0   21832   3356   2056 S   0.0   0.1   0:00.00 systemd-udevd
+    116 root      20   0   21832   3356   2056 S   0.0   0.1   0:00.00 systemd-udevd
+    117 root      20   0   21832   3360   2056 S   0.0   0.1   0:00.00 systemd-udevd
+    118 root      20   0   21832   3360   2056 S   0.0   0.1   0:00.04 systemd-udevd
+    119 root      20   0   21832   3360   2056 S   0.0   0.1   0:00.00 systemd-udevd
+    120 root      20   0   21832   4320   2952 S   0.0   0.1   0:00.03 systemd-udevd
+    121 root      20   0   21832   3360   2056 S   0.0   0.1   0:00.01 systemd-udevd
+    122 root      20   0   21832   3424   2116 S   0.0   0.1   0:00.02 systemd-udevd
+    123 root      20   0   21832   3428   2116 S   0.0   0.1   0:00.00 systemd-udevd
+    124 root      20   0   21832   3368   2056 S   0.0   0.1   0:00.00 systemd-udevd
+    125 root      20   0   21832   3368   2056 S   0.0   0.1   0:00.03 systemd-udevd
+    129 systemd+  20   0   25260  12216   8280 S   0.0   0.4   0:00.27 systemd-resolve
+    173 root      20   0    4304   2664   2420 S   0.0   0.1   0:00.00 cron
+    175 message+  20   0    8588   4572   4040 S   0.0   0.2   0:00.04 dbus-daemon
+    179 root      20   0   30128  19040  10224 S   0.0   0.6   0:00.13 networkd-dispat
+    182 root      20   0   15324   7112   6172 S   0.0   0.2   0:00.11 systemd-logind
+    196 root      20   0    4780   3364   3124 S   0.0   0.1   0:00.13 subiquity-serve
+    198 root      20   0  107224  20936  12808 S   0.0   0.7   0:00.12 unattended-upgr
+    202 root      20   0    3236   1164   1076 S   0.0   0.0   0:00.00 agetty
+    204 root      20   0    3192   1052    968 S   0.0   0.0   0:00.00 agetty
+    312 root      20   0   14692   6308   5520 S   0.0   0.2   0:00.12 systemd-timedat
+    354 root      20   0    2328    108      0 S   0.0   0.0   0:00.00 SessionLeader
+    355 root      20   0    2344    112      0 S   0.0   0.0   0:00.00 Relay(356)
+    356 usrzed    20   0    4912   3504   3132 S   0.0   0.1   0:00.01 bash
+    357 root      20   0    7316   4080   3460 S   0.0   0.1   0:00.01 login
+    360 usrzed    20   0    7780   3680   3120 R   0.0   0.1   0:00.00 top
+    387 usrzed    20   0  168756   3484     16 S   0.0   0.1   0:00.00 (sd-pam)
+
+CPU usage during loop 2 at time: 
+Thu Jul 20 18:00:34 BST 2023
+top - 18:00:34 up 3 min,  1 user,  load average: 0.46, 0.23, 0.10
+Tasks:  35 total,   1 running,  34 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2883.9 total,   2023.6 free,    448.5 used,    411.9 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2290.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  165828  11116   8168 S   0.0   0.4   0:00.68 systemd
+      2 root      20   0    2324   1192   1084 S   0.0   0.0   0:00.01 init-systemd(Ub
+      5 root      20   0    2324      4      0 S   0.0   0.0   0:00.00 init
+     37 root      19  -1   39540  14884  13908 S   0.0   0.5   0:00.16 systemd-journal
+     62 root      20   0   21832   5728   4420 S   0.0   0.2   0:00.22 systemd-udevd
+     76 root      20   0    4492    184     32 S   0.0   0.0   0:00.00 snapfuse
+     77 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+     78 root      20   0    4624    200     44 S   0.0   0.0   0:00.00 snapfuse
+     79 root      20   0    4756   1940   1408 S   0.0   0.1   0:00.98 snapfuse
+     85 root      20   0    4492    160     12 S   0.0   0.0   0:00.00 snapfuse
+     90 root      20   0    4752   1832   1300 S   0.0   0.1   0:03.23 snapfuse
+     92 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+     94 root      20   0    4960   1708   1212 S   0.0   0.1   0:01.58 snapfuse
+    129 systemd+  20   0   25260  12216   8280 S   0.0   0.4   0:00.27 systemd-resolve
+    173 root      20   0    4304   2664   2420 S   0.0   0.1   0:00.00 cron
+    175 message+  20   0    8588   4572   4040 S   0.0   0.2   0:00.05 dbus-daemon
+    179 root      20   0   30128  19040  10224 S   0.0   0.6   0:00.13 networkd-dispat
+    180 syslog    20   0  222400   4880   4316 S   0.0   0.2   0:00.02 rsyslogd
+    181 root      20   0 1392240  42276  18312 S   0.0   1.4   0:00.77 snapd
+    182 root      20   0   15324   7112   6172 S   0.0   0.2   0:00.11 systemd-logind
+    196 root      20   0    4780   3364   3124 S   0.0   0.1   0:00.13 subiquity-serve
+    198 root      20   0  107224  20936  12808 S   0.0   0.7   0:00.12 unattended-upgr
+    202 root      20   0    3236   1164   1076 S   0.0   0.0   0:00.00 agetty
+    204 root      20   0    3192   1052    968 S   0.0   0.0   0:00.00 agetty
+    312 root      20   0   14692   6308   5520 S   0.0   0.2   0:00.12 systemd-timedat
+    347 root      20   0  153472  68540  17856 S   0.0   2.3   0:03.09 python3.10
+    354 root      20   0    2328    108      0 S   0.0   0.0   0:00.00 SessionLeader
+    355 root      20   0    2344    112      0 S   0.0   0.0   0:00.00 Relay(356)
+    356 usrzed    20   0    4912   3716   3256 S   0.0   0.1   0:00.01 bash
+    357 root      20   0    7524   4680   3768 S   0.0   0.2   0:00.01 login
+    386 usrzed    20   0   16900   9116   7668 S   0.0   0.3   0:00.09 systemd
+    387 usrzed    20   0  168756   3484     16 S   0.0   0.1   0:00.00 (sd-pam)
+    395 usrzed    20   0    6068   5032   3384 S   0.0   0.2   0:00.02 bash
+    417 root      20   0   42168  36112  10040 S   0.0   1.2   0:01.11 python3
+    422 usrzed    20   0    7808   3136   2772 R   0.0   0.1   0:00.00 top
+
+top - 18:00:37 up 3 min,  1 user,  load average: 0.46, 0.23, 0.10
+Tasks:  35 total,   1 running,  34 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   2883.9 total,   2023.6 free,    448.5 used,    411.9 buff/cache
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   2290.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    417 root      20   0   42168  36112  10040 S   0.3   1.2   0:01.12 python3
+      1 root      20   0  165828  11116   8168 S   0.0   0.4   0:00.68 systemd
+      2 root      20   0    2324   1192   1084 S   0.0   0.0   0:00.01 init-systemd(Ub
+      5 root      20   0    2324      4      0 S   0.0   0.0   0:00.00 init
+     37 root      19  -1   39540  14884  13908 S   0.0   0.5   0:00.16 systemd-journal
+     62 root      20   0   21832   5728   4420 S   0.0   0.2   0:00.22 systemd-udevd
+     76 root      20   0    4492    184     32 S   0.0   0.0   0:00.00 snapfuse
+     77 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+     78 root      20   0    4624    200     44 S   0.0   0.0   0:00.00 snapfuse
+     79 root      20   0    4756   1940   1408 S   0.0   0.1   0:00.98 snapfuse
+     85 root      20   0    4492    160     12 S   0.0   0.0   0:00.00 snapfuse
+     90 root      20   0    4752   1832   1300 S   0.0   0.1   0:03.23 snapfuse
+     92 root      20   0    4492    168     20 S   0.0   0.0   0:00.00 snapfuse
+     94 root      20   0    4960   1708   1212 S   0.0   0.1   0:01.58 snapfuse
+    129 systemd+  20   0   25260  12216   8280 S   0.0   0.4   0:00.27 systemd-resolve
+    173 root      20   0    4304   2664   2420 S   0.0   0.1   0:00.00 cron
+    175 message+  20   0    8588   4572   4040 S   0.0   0.2   0:00.05 dbus-daemon
+    179 root      20   0   30128  19040  10224 S   0.0   0.6   0:00.13 networkd-dispat
+    180 syslog    20   0  222400   4880   4316 S   0.0   0.2   0:00.02 rsyslogd
+    181 root      20   0 1392240  42276  18312 S   0.0   1.4   0:00.77 snapd
+    182 root      20   0   15324   7112   6172 S   0.0   0.2   0:00.11 systemd-logind
+    196 root      20   0    4780   3364   3124 S   0.0   0.1   0:00.13 subiquity-serve
+    198 root      20   0  107224  20936  12808 S   0.0   0.7   0:00.12 unattended-upgr
+    202 root      20   0    3236   1164   1076 S   0.0   0.0   0:00.00 agetty
+    204 root      20   0    3192   1052    968 S   0.0   0.0   0:00.00 agetty
+    312 root      20   0   14692   6308   5520 S   0.0   0.2   0:00.12 systemd-timedat
+    347 root      20   0  153472  68540  17856 S   0.0   2.3   0:03.09 python3.10
+    354 root      20   0    2328    108      0 S   0.0   0.0   0:00.00 SessionLeader
+    355 root      20   0    2344    112      0 S   0.0   0.0   0:00.00 Relay(356)
+    356 usrzed    20   0    4912   3716   3256 S   0.0   0.1   0:00.01 bash
+    357 root      20   0    7524   4680   3768 S   0.0   0.2   0:00.01 login
+    386 usrzed    20   0   16900   9116   7668 S   0.0   0.3   0:00.09 systemd
+    387 usrzed    20   0  168756   3484     16 S   0.0   0.1   0:00.00 (sd-pam)
+    395 usrzed    20   0    6068   5032   3384 S   0.0   0.2   0:00.02 bash
+    422 usrzed    20   0    7776   3564   3004 R   0.0   0.1   0:00.00 top
+
